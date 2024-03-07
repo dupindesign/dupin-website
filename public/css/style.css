@@ -22,3 +22,30 @@ nav {
   margin:auto;
   width: 90%;
 }
+
+
+/*MAIN LOGO*/
+
+.logo-div {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.works-div {
+  color: #2D2B2B;
+}
+
+/*WORKS*/
+
+.date-div{
+  position: relative;
+}
+
+#h5-div {
+  position: absolute;
+  bottom: 0;
+}
+
+.button1 {
+  width: 15%;
+}
