@@ -1,5 +1,103 @@
-/*NAVBAR*/
+/*HOME-PAGE*/
+/*main logo*/
+.logo-div {
+  margin-top: 21%;
+  margin-bottom: 21%;
+}
 
+
+/*ellipse*/
+.ellipse1-img {
+  width: 100%;
+}
+
+
+/*works*/
+.works-section {
+  background-color: #2D2B2B;
+}
+
+.company-div {
+  padding-left: 35%;
+}
+
+.company-div h5 {
+  color: #FFFFFF;
+}
+
+.company-div h3 {
+  color: #FFFFFF;
+}
+
+.date-div{
+  position: relative;
+}
+
+.date-div h5 {
+  color: #FFFFFF;
+}
+
+#date-div2 {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+.button1-div {
+  padding-top: 1.5%;
+  padding-left: 45%;
+}
+
+.button1 {
+  width: 25%;
+}
+
+.hr-div {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.works-hr {
+  height: 2px;
+  opacity: 100%;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  margin: auto;
+  width: 92%
+}
+
+.more-work-div {
+  margin-top: 8%;
+  padding-bottom: 5%;
+}
+
+.more-work-div a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+
+/*ABOUT-PAGE*/
+.selfie-img {
+  width: 100%;
+}
+
+.about-logo-img {
+  width: 100%;
+}
+
+.bio {
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+.bio h1 {
+  font-size: 2.5vw;
+}
+
+/*COMMON*/
+/*navbar*/
 nav {
   width: 90%;
   margin: auto;
@@ -14,7 +112,7 @@ nav {
   font-size:larger;
 }
 
-.nav-line {
+.nav-hr {
   height: 2px;
   opacity: 100%;
   color: #050404;
@@ -23,29 +121,60 @@ nav {
   width: 90%;
 }
 
-
-/*MAIN LOGO*/
-
-.logo-div {
-  padding-top: 15%;
-  padding-bottom: 15%;
+.selected {
+  color: #4824DF;
 }
 
-.works-div {
-  color: #2D2B2B;
+/*footer*/
+.balloon-img {
+  width: 100%
 }
 
-/*WORKS*/
-
-.date-div{
-  position: relative;
+.contact-img {
+  width: 60%;
 }
 
-#h5-div {
-  position: absolute;
-  bottom: 0;
+.footerLogo-img {
+  width: 100%;
 }
 
-.button1 {
-  width: 15%;
+/*media queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo-img {
+    max-width: 50%;
+  }
+  .button1 {
+    width: 60%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo-img {
+    max-width: 70%;
+  }
+  .button1 {
+    width: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .logo-img {
+    max-width: 80%;
+  }
+  .button1 {
+    width: 35%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo-img {
+    max-width: 100%;
+  }
+  .button1 {
+    width: 25%;
+  }
 }
