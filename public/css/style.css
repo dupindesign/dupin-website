@@ -210,6 +210,10 @@ nav {
   width: 100%;
 }
 
+.full-width {
+  width: 100%;
+}
+
 /*media queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
