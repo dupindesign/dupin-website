@@ -76,6 +76,10 @@
   color: #FFFFFF;
 }
 
+.more-work:hover {
+  color:#4824DF;
+}
+
 
 
 /*ABOUT-PAGE*/
@@ -168,6 +172,10 @@ textarea:focus {
   width: 90%;
 }
 
+.send-img:hover {
+  width: 95%;
+}
+
 /*COMMON*/
 /*navbar*/
 nav {
@@ -216,6 +224,10 @@ nav {
 
 .contact-img {
   width: 60%;
+}
+
+.contact-img:hover {
+  width: 65%;
 }
 
 .footerLogo-img {
