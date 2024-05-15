@@ -48,10 +48,6 @@
   padding-left: 45%;
 }
 
-.button1 {
-  width: 25%;
-}
-
 .hr-div {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -98,6 +94,11 @@
 
 .bio h1 {
   font-size: 2.5vw;
+}
+
+.large-text{
+  font-size: 1.5vw;
+  padding-bottom: 0.5vw;
 }
 
 /*work-page*/
@@ -189,7 +190,7 @@ nav {
 
 .nav-link {
   color: #050404;
-  font-size:larger;
+  font-size:x-large;
 }
 
 .nav-hr {
@@ -244,12 +245,13 @@ nav {
   .logo-img {
     max-width: 50%;
   }
-  .button1 {
-    max-width: 60%;
-  }
   .workwork-img {
     max-width: 80%;
   }
+  .button1 {
+    width: 60%;
+  }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -257,11 +259,11 @@ nav {
   .logo-img {
     max-width: 70%;
   }
-  .button1 {
-    max-width: 70%;
-  }
   .workwork-img {
     max-width: 80%;
+  }
+  .button1 {
+    width: 50%;
   }
 }
 
@@ -270,11 +272,11 @@ nav {
   .logo-img {
     max-width: 80%;
   }
-  .button1 {
-    max-width: 35%;
-  }
   .workwork-img {
     max-width: 90%
+  }
+  .button1 {
+    width: 50%;
   }
 
 }
@@ -284,10 +286,10 @@ nav {
   .logo-img {
     max-width: 100%;
   }
-  .button1 {
-    max-width: 25%;
-  }
   .workwork-img {
     max-width: 100%;
+  }
+  .button1 {
+    width: 30%;
   }
 }
